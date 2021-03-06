@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Modifier un chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form method="POST" type="submit" class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="id" id="id" type="text" class="validate">
+                    <label for="id">ID</label>
+                  </div>
+                <div class="input-field col s6">
+                  <input placeholder="nom" id="name" type="text" class="validate">
+                  <label for="name">Nom du chat</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="race" id="race" type="text" class="validate">
+                  <label for="race">Race du chat</label>
+                </div>
+                <div class="input-field col s6">
+                  <input placeholder="couleur" id="color" type="text" class="validate">
+                  <label for="color">Couleur du chat</label>
+                </div>
+              </div>
+              <button id="btn" type="submit" class="waves-effect waves-light btn">Modifier</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../js/scriptUpdate.js"></script>
+</html>
